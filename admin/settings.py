@@ -33,7 +33,7 @@ except ImportError:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.mysql",
-            "NAME": "bsalanie$djapp",
+            "NAME": "bsalanie$djs3",
             "USER": "bsalanie",
             "PASSWORD": MYSQL_PASSWD,
             "HOST": "bsalanie.mysql.pythonanywhere-services.com",
