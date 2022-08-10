@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'djapp/css/base.css'%}"
+    />
+    {% block title %}
+    <h1>How interesting</h1>
+    {% endblock %}
+  </head>
+
+  <body>
+    <br />
+    <h2>Not much to see here, except perhaps these green things:
+    <div>
+      <img
+        src="{% static 'djapp/images/Nenuphars.jpeg'%}"
+        alt="Nenuphars"
+        width="30%"
+        height="40%"
+      />
+    </div>
+  </body>
+</html>

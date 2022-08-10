@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: red;
+}
+
+li {
+  color: yellow;
+}
+
+.centered-vertical-image {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

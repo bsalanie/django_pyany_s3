@@ -1,0 +1,6 @@
+django
+boto3
+django-storages
+flake8
+black
+python-dotenv
